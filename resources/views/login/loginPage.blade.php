@@ -34,6 +34,7 @@
 <link type="text/css" rel="stylesheet" href="{{asset('css/css_Login/Login.css')}}"/>
 @endsection
 
+
 @section('content')
     {{-- sign in --}}
 <div class="sign_in" >

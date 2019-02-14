@@ -53,7 +53,12 @@ Route::group(['prefix'=>'/index'],function(){
     Route::get('/default', function(){
         return view('page_default/form_page');
     });
- 
+    Route::get('/detailPro', function(){
+        return view('detail/detailProduct');
+    });
+    Route::get('/store', function(){
+        return view('detail/categoriesMenu');
+    });
 });
 // home page
 Route::group(['prefix'=>'/home','as'=>'home'],function(){

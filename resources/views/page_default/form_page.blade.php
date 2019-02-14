@@ -168,10 +168,13 @@
 		</div>
 	<!-- /MAIN HEADER -->
 	</header>
-		<!-- /HEADER -->
+	<!-- /HEADER -->
         @include('head/header')
         {{-- get css  --}}
-        @yield('css')
+				@yield('css')
+
+				{{-- search result --}}
+				@yield('searchDefault')
 
         {{-- get content --}}
         @yield('content')
