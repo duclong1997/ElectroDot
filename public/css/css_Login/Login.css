@@ -1,0 +1,118 @@
+.sign_in{
+    height: auto; 
+    width: 100%; 
+
+    text-align: center;
+}
+
+.sign_in .Sign_in_head{
+    height: 100px; 
+    padding-top: 30px;
+
+}
+
+.sign_in_body{
+    margin-left: 15%; 
+    margin-right: 15%; 
+    height: 300px;
+    margin-top: 10px;
+
+}
+.sign_in_body .form1{
+    float: left; 
+    width: 33%; 
+    border-right: #d10024 2px solid;
+}
+.form1 .fom1_sign_in{
+    text-align: left; 
+    padding-left: 5%;
+  
+}
+
+.form1 .fom1_sign_in input{
+    height: 30px; 
+    width: 80%;
+}
+
+.form1 .fom1_sign_in .reset_sign_in
+{
+    width: 80px; 
+    text-align: center; 
+    margin-left: 1%;
+    background: #d10024;
+}
+
+.form1 .fom1_sign_in .submit_sign_in{
+    width: 80px; 
+    margin-right: 20%;
+    text-align: center; 
+    background: #d10024;
+    float: right;
+}
+
+.form1 .fom1_sign_in button{
+    color: azure;
+    border-radius:20px;
+    font-size: 15px;
+
+}
+.form1 .fom1_sign_in b{
+    color: rgb(190, 20, 20);
+    font-size: 10px;
+}
+
+.form1 .forget{
+    text-align: left; 
+    margin-top: 30px; 
+    padding-left: 5%;
+}
+.form1 .forget a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #049cb9;
+}
+.form2{
+    float: left;
+    width: 34%;
+    border-right: #d10024 2px solid;
+    height: 250px;
+}
+.form2 .content_sign_up{
+    text-align: left; 
+    margin-left: 5%;
+}
+.form2 .button_sign_up{
+    padding-top: 26px;
+}
+.form2 .button_sign_up button{
+    width: 100px; 
+    text-align: center; 
+    margin-right: 5%; 
+    margin-left: 5%;
+    background:#d10024;
+    border-radius: 20px;
+}
+.form2 .button_sign_up button a{
+    text-decoration: none;
+    color: antiquewhite;
+    font: bold;
+    font-size: 20px;
+}
+.form3{
+    float: left; 
+
+    width: 33%; 
+}
+
+.form3 .sign_in_with{
+    padding-top: 20px;
+}
+
+.form3 .sign_in_with .face{
+    height:40px;
+    width:200px;
+}
+.form3 .sign_in_with .google{
+    height:45px;
+    width:205px;
+}
